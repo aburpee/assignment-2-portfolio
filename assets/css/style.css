@@ -44,6 +44,10 @@ header nav ul li a {
 section {
     padding: 60px;
 }
+h2 {
+    border-right: darkslategrey;
+    border-width: 100px;
+}
 .hero {
     background-image: url("../images/monolith-hero-bg.jpg");
     background-size: cover;
@@ -51,11 +55,112 @@ section {
     display: flex;
     justify-content: right;
     flex-wrap: wrap;
-    align-items: center;
 }
 .hero-cta {
     color: whitesmoke;
 }
+
+.alignment {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ .alignment h2 {
+    color: darkslategrey;
+    font-size: 55px;
+    /* border-right: 5px solid; */
+    padding-right: 200px;
+    text-align: left;
+    margin: 0 auto 35px -100px;;
+    width: 50%;
+}
+.intro p {
+    border-left: 5px solid;
+    padding-left: 150px;
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: -150px auto 35px 150px;
+    line-height: 1.7;
+    font-size: 20px;
+    
+}
+
+.alignment article {
+    border-left: 5px solid;
+    padding-left: 150px;
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: -150px auto 35px 150px;
+    line-height: 1.7;
+    font-size: 20px;
+}
+
+.alignment h3 {
+    border: 10px solid;
+    margin: 0 -75px -100px auto;
+    right: 150%;
+    float: right;
+}
+
+.alignment img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    float: left;
+    /* width: 300px; */
+    /* height: 300px; */
+    object-fit: contain;
+    border:10px solid;
+    margin: 0 auto 0 auto;
+}
+
+/*
+.intro p {
+
+}
+
+.projects h3 {
+}
+.projects article{
+    display: flex;
+    align-items: bottom;
+    justify-content: space-evenly;
+}
+
+.projects img {
+    float: left;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-style: solid;
+    border: 100px;
+    border-color: darkslategrey;
+    
+}
+.contact ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.contact ul li {
+    padding: 10px 15px;
+    font-weight: lighter;
+    border-bottom: solid;
+    display: inline-block
+} */
+
+
 
 
 
