@@ -43,21 +43,18 @@
     </header>
     <!-- hero/jumbotron -->
         <!-- form -->
-    <section class="hero">
-        <div class="hero-cta">
+    <div class="topImage">
+        <div class="topImageText">
             <h2>Always Looking Ahead.</h2>
-            <!-- <p>
-                seitan heirloom post-ironic pop-up iPhone mlkshk hella selfies fashion axe occupy readymade put a bird on it messenger bag Wes Anderson Schlitz plaid Bushwick church-key lo-fi skateboard slow-carb hashtag trust fund Williamsburg biodiesel fixie farm-to-table 8-bit banjo XOXO Banksy chillwave bicycle rights retro cliche tattooed bespoke irony mumblecore Shoreditch deep v polaroid McSweeney's bitters cray gentrify tofu Marfa you probably haven't heard of them yr banh mi asymmetrical art party selvage letterpress High Life.
-            </p> -->
         </div>
-    </section>
+    </div>
 
     <!-- "what we do" section -->
-    <section id="about-me" class="intro alignment">
-        <div class="flex-row">
-            <h2 class="section-title primary-border">About Me</h2>
+    <div id="about-me" class="aboutMe">
+        <div class="aboutMeTitle">
+            <h2>About Me</h2>
         </div>
-        <div class="flex-row">
+        <div class="aboutMeText">
             <p>
                 I'm baby cold-pressed scenester lumbersexual try-hard vegan bespoke. Leggings retro cardigan, iceland etsy master cleanse pok pok single-origin coffee mlkshk hella meggings offal. Mumblecore kogi 3 wolf moon, knausgaard taiyaki quinoa pop-up. Helvetica butcher retro pinterest four dollar toast cronut. Poke bicycle rights vape adaptogen, hell of disrupt freegan venmo paleo green juice cornhole.
             <br><br>
@@ -66,53 +63,58 @@
                 Dummy text? More like dummy thicc text, amirite?
             </p>
         </div>    
-
-    </section>
+    </div>
     
     <!-- "what you do" section -->
-    <section id="work" class="projects alignment">
-        <h2 class="flex-row">Work</h2>
-        <article>
-            <h3>
-                Run Buddy
-            </h3>
-            <div>
-                <img src="./assets/images/run-buddy.jpg" alt="Run Buddy website introduction paragraph">
+    <div id="work" class="workContainer">
+            <h2 class="projectsTitle">Work</h2>
+        <div id="projectsContainer">
+            <div class="runBuddyContainer">
+                <h3 class="runBuddyTitle">
+                    Run Buddy
+                </h3>
+                <div class="runBuddyImg">
+                    <img src="./assets/images/run-buddy.jpg" alt="Run Buddy website introduction paragraph">
+                </div>
+            </div> 
+            <div class="jugglingContainer">
+                <h3 class="jugglingTitle">
+                    Juggling
+                </h3>
+            
+                <div class="jugglingImg">
+                    <img src="./assets/images/juggling.jpeg" alt="Silhouette of person juggling in field with overexposed background sky">
+                </div>        
             </div>
-        </article> 
-        <article>
-            <h3>
-                Juggling
-            </h3>
-            <img src="./assets/images/juggling.jpeg" alt="Silhouette of person juggling in field with overexposed background sky">
-        </article>
-        <article>
-            <h3>
-                Unicyling
-            </h3>
-            <img src="./assets/images/unicycling.jpeg" alt="Person unicycling on a path with a stormy background">
-        </article>
-        <article>
-            <h3>
-                Rubik's Cube
-            </h3>
-            <img src="./assets/images/rubiks-cube.jpeg" alt="rubiks cube on plain background">
-        </article>
-        <article>
-            <h3>
-                Whittling
-            </h3>
-            <img src="./assets/images/whittling.jpeg" alt="wood whittling set">
-        </article>
-        <article>
-            <h3>
-                Painting
-            </h3>
-            <img src="./assets/images/painting.jpeg" alt="abstract colorful painting with blue cascading to orange, red, yellow hues">
-        </article>
-    </section>    
+            <div class="unicyclingContainer">
+                <h3 class="unicyclingTitle">
+                    Unicyling
+                </h3>
+            
+                <div class="unicyclingImg">
+                    <img src="./assets/images/unicycling.jpeg" alt="Person unicycling on a path with a stormy background">
+                </div>
+            </div>
+            <div class="rubiksCubeContainer">
+                <h3 class="rubiksCubeTitle">
+                    Rubik's Cube
+                </h3>
+                <div class="rubiksCubeImg">
+                    <img src="./assets/images/rubiks-cube.jpeg" alt="rubiks cube on plain background">
+                </div>
+            </div>
+            <div class="paintingContainer">
+                <h3 class = "paintingTitle">
+                    Painting
+                </h3>
+                <div class="paintingImg">
+                    <img src="./assets/images/painting.jpeg" alt="abstract colorful painting with blue cascading to orange, red, yellow hues">
+                </div>
+            </div>
+        </div>
+    </div>    
  
-    <!-- <section id="contact-me" class="contact">
+    <section id="contact-me" class="contact alignment">
         <div class="flex-row">
             <h2 class="section-title secondary-border">Reach Out</h2>
         </div>
@@ -124,6 +126,24 @@
                 <li>spotify</li>
             </ul>
         </article>
-    </section> -->
+    </section>
 </body>
 </html>
+
+
+<!-- 
+<div id="mainContainer">  *///flexbox row
+    <div id="workTitle">
+      <h2>WORK</h2>
+    </div>
+
+    <div id="photoRows">  ///flexbox column ///width 60% ///border
+        <div class="row"> ///flexboxRow width 100%
+            <img class="smallImg" src="" alt=""> //width 50%
+            <img class="smallImg" src="" alt="">
+        </div>
+        <img src="" alt=""> width 100%
+        <img src="" alt="">
+    </div>
+
+</div> -->
