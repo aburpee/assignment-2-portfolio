@@ -105,8 +105,7 @@ header nav ul li a {
 .imgClass2 img {
     width: 50%;
     border: 12px solid;
-    justify-content: right;
-    box-sizing: b;
+    
 }
 .imgClass3 img {
     width: 50%;
@@ -130,15 +129,20 @@ header nav ul li a {
 } */
 
 
-#contact-me h2{
+#contact-me h3{
     /* display: flex;
     flex-wrap: row; */
     padding: 50px;
     font-size: 40px;
     border-right: 5px solid;
     margin-right:826px;
+    margin-left: 75px;
     
 }
+
+#linksContainer {
+}
+
 .contactList ul{
     display:flex;
     flex-wrap: wrap;
@@ -155,7 +159,7 @@ header nav ul li a {
 
 
 
-/* 
+/*
 @media screen and (max-width: 980px) {
     header {
         padding-bottom: 0;
