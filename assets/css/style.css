@@ -4,11 +4,12 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 header {
-    padding: 20px 35px;
+    /* padding: 20px 35px; */
     background-color: darkslategrey;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    width: 100%;
 }
 header h1 {
     font-weight: bold;
@@ -35,19 +36,7 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 1.55vw;
 }
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-section {
-    padding: 60px;
-}
-h2 {
-    border-right: darkslategrey;
-    border-width: 100px;
-}
 .topImage {
     background-image: url("../images/monolith-hero-bg.jpg");
     background-size: cover;
@@ -79,66 +68,88 @@ h2 {
 }
 .workContainer {
     display: flex;
-    flex-wrap: column;
-    padding: 50px;
-
+    /* flex-wrap: row;*/
+    padding-left: 50px;
 }
 .workContainerTitle {
-    display: flex;
-    flex-wrap: row;
+    /* display: flex;
+    flex-wrap: row; */
     padding: 56px;
     font-size: 35px;
     border-right: 5px solid;
 }
-.projectsContainer {
-    border-left: 5px solid;
-    flex: 3;
-    padding: 50px;
+
+
+
+
+.appContainer {
+
+    /* display:flex; */
+    position: relative;
+    /* width: 100%; */
+    margin-left:10%;
+    padding-left:10%; 
+    padding-right: 10%;
 }
-.projectsContainer img {
-    width: 100px;
-    height: 200px;
-    object-fit: cover;
+
+.appContainer h3 {
+    position: absolute;
+    bottom: 10px; 
+    /* border: 5px solid; */
+}
+
+.imgClass1 img{
+    width: 100%;
+    border: 12px solid;
+}
+.imgClass2 img {
+    width: 50%;
+    border: 12px solid;
+    justify-content: right;
+    box-sizing: b;
+}
+.imgClass3 img {
+    width: 50%;
+    border: 12px solid;
     
 }
-.runBuddyContainer {
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    flex: 3;
-}
-.jugglingContainer {
-    flex:3;
-}
-.unicyclingContainer {
-    flex: 3;
-}
-.rubiksCubeContainer {
-    flex: 3;
-}
-.paintingContainer {
-    flex:3;
+
+.imgTitle{
+    color: whitesmoke;
+    border: 5px solid;
+    border-radius: 15px 60px 30px 5px;
+    border-color:;
+    
 }
 
-.contactContainer {
+/* .contactContainer {
     display: flex;
     flex-wrap: row;
+    padding: 70px;
+
+} */
+
+
+#contact-me h2{
+    /* display: flex;
+    flex-wrap: row; */
     padding: 50px;
-
-}
-.contactContainerTitle {
-    display: flex;
-    flex-wrap: row;
-    padding: 56px;
-    font-size: 35px;
+    font-size: 40px;
     border-right: 5px solid;
+    margin-right:826px;
+    
 }
-.contactContainer ul{
-    display: flex;
+.contactList ul{
+    display:flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content:space-evenly;
     border-bottom: 5px solid;
-    align-items: center;
+    /* align-items:flex-start; */
     list-style: none;
+    margin-left: 300px;
+    margin-top: -130px; 
+    font-size: 20px;
+    
 }
 
 
