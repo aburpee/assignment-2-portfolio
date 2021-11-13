@@ -40,7 +40,7 @@ header nav ul li a {
 .topImage {
     background-image: url("../images/monolith-hero-bg.jpg");
     background-size: cover;
-    background-position: center;
+    /* background-position: center; */
     display: flex;
     justify-content: right;
     flex-wrap: wrap;
@@ -51,110 +51,28 @@ header nav ul li a {
     margin: 140px 80px; 
 }
 
-.aboutMe {
-    display:flex;
-    padding: 100px;
-}
-.aboutMeTitle {
-    font-size: 35px;
-    padding: 20px;
-    flex:1;
-}
-.aboutMeText {
-    border-left: 5px solid;
-    flex:5;
-    padding: 30px;
-    font-size: 18px;
-}
-.workContainer {
+.flexboxContainer{
     display: flex;
-    /* flex-wrap: row;*/
-    padding-left: 50px;
-}
-.workContainerTitle {
-    /* display: flex;
-    flex-wrap: row; */
-    padding: 56px;
-    font-size: 35px;
-    border-right: 5px solid;
 }
 
-
-
-
-.appContainer {
-
-    /* display:flex; */
-    position: relative;
-    /* width: 100%; */
-    margin-left:10%;
-    padding-left:10%; 
-    padding-right: 10%;
+.flexboxItem {
+    width: 200px;
+    margin: 10px;
+    border: 3px solid;
+    background-color: #dfdfdf;
 }
 
-.appContainer h3 {
-    position: absolute;
-    bottom: 10px; 
-    /* border: 5px solid; */
+.flexboxItem-1 {
+    min-height: 100px;
+    width: 30%;
 }
 
-.imgClass1 img{
-    width: 100%;
-    border: 12px solid;
-}
-.imgClass2 img {
-    width: 50%;
-    border: 12px solid;
-    
-}
-.imgClass3 img {
-    width: 50%;
-    border: 12px solid;
-    
+.flexboxItem-2 {
+    min-height: 200px;
+    width: 70%;
 }
 
-.imgTitle{
-    color: whitesmoke;
-    border: 5px solid;
-    border-radius: 15px 60px 30px 5px;
-    border-color:;
-    
-}
 
-/* .contactContainer {
-    display: flex;
-    flex-wrap: row;
-    padding: 70px;
-
-} */
-
-
-#contact-me h3{
-    /* display: flex;
-    flex-wrap: row; */
-    padding: 50px;
-    font-size: 40px;
-    border-right: 5px solid;
-    margin-right:826px;
-    margin-left: 75px;
-    
-}
-
-#linksContainer {
-}
-
-.contactList ul{
-    display:flex;
-    flex-wrap: wrap;
-    justify-content:space-evenly;
-    border-bottom: 5px solid;
-    /* align-items:flex-start; */
-    list-style: none;
-    margin-left: 300px;
-    margin-top: -130px; 
-    font-size: 20px;
-    
-}
 
 
 
