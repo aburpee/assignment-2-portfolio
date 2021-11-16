@@ -110,15 +110,22 @@ header nav ul li a {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    flex-direction: column;
-    /* margin-left: auto; */
+    position: relative;
+    padding: 5%;
     
+}
+.imgTitle {
+    position: absolute;
+    background-color: whitesmoke;
+    border: 4px;
+    border-color: darkslategrey;
 }
 
 .workFlexboxImg2 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    
 }
 
 .workFlexboxImg img{
@@ -126,6 +133,7 @@ header nav ul li a {
     display: flex;
     flex-direction: row;
     border: 5px solid;
+    height: 100%
 }
 
 .workFlexboxImg-1 {
@@ -136,11 +144,12 @@ header nav ul li a {
 
 .workFlexboxImg-2 {
     width: 40%;
-    
+    height: auto;
 }
 
 .workFlexboxImg-3 {
     width: 40%;
+    
     
     /* margin-top: 600px; */
 }
