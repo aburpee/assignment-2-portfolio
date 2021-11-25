@@ -166,6 +166,9 @@ header nav ul li a {
 .contactFlexboxContainer{
     display: flex;
 }
+.contactFlexBoxContainer h2 {
+    font-size: 36px;
+}
 
 .contactFlexboxItem {
     width: 200px;
