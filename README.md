@@ -1,6 +1,4 @@
 # assignment-2-portfolio
-Creating my first portfolio website
-
 
 # The goal of this project was to create a skeleton for my portfolio. 
 
